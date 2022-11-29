@@ -1,7 +1,7 @@
 import {Entity, Column, PrimaryGeneratedColumn} from 'typeorm';
 
 @Entity('users')
-export class ZavgarUsersEntity {
+export class UsersEntity {
   @PrimaryGeneratedColumn()
   id: number;
 
